@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lalezar&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-sans, * {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.lalezar {
+    font-family: "Lalezar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.irish-grover {
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, html {
+    background-color: #000614 !important;
+}
+
+.button-inset {
+    box-shadow: inset 0px -6px 4px #00000025;
+}
+
+.page-bg {
+    background-image: url('/images/Group 7.png'), url('/images/Group 5.png');
+    background-size: contain;
+    background-position: top, bottom;
+}
+
+.text-shadow-blue {
+    text-shadow: 0px 0px 4px #0098F1;
+}
+
+.bg-fill {
+    background-image: url('/images/Group 24.png');
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

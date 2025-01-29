@@ -1,0 +1,1 @@
+const backFunc = () => router.back()
